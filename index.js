@@ -26,7 +26,8 @@ message:"please enter a url where a user can see your deployed application .",
             type:"list",                                    
             name:"license",
             message:"please select a license applicable to this application .",
-            choices:["MIT","BSD2","none"]
+            choices:["MIT","BSD2","none","Apache","Boost","BSD","Creative Commons",
+            "Eclipse","GNU","IBM","ISC","Mozilla","Perl","SIL","Unlicense","WTFPL","Zlib"]
     },
     {
         type:"input",
